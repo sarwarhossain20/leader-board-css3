@@ -230,6 +230,7 @@ Top players styles start
 @media only screen and (max-width: 688px) {
     .container {
         width: 100%;
+        
     }
 
     .section-title {
@@ -241,6 +242,7 @@ Top players styles start
     .courses {
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 5px;
+        margin: 0 30px;
     }
 
     .player {

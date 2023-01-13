@@ -7,6 +7,8 @@ common styles and utilities
 body {
     background: #E5E5E5;
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 main {
@@ -26,6 +28,63 @@ main {
 hr {
     border: 1px solid #D1D1D1;
     margin-bottom: 27px;
+}
+
+/*-------------------
+ navigation bar styles
+----------------------- */
+.navigation-bar {
+    display: flex;
+    height: 94px;
+    background-color: #562EFF;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo-section span {
+    color: #FFC014;
+}
+
+.logo-title {
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.logo-section img {
+    width: 40px;
+    height: 50px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 36px;
+
+}
+
+.menu ul li:hover a {
+    color: #ADF0D1;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.user-profile img {
+    width: 50px;
+    height: 50px;
 }
 
 /* -------------------

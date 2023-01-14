@@ -230,7 +230,7 @@ Top players styles start
 @media only screen and (max-width: 688px) {
     .container {
         width: 100%;
-        
+
     }
 
     .section-title {
@@ -245,13 +245,15 @@ Top players styles start
         margin: 0 30px;
     }
 
-    .player {
+    .player,
+    .navigation-bar {
         justify-content: center;
         flex-direction: column;
     }
 
     .navigation-bar {
         justify-content: center;
+        height: 143px;
     }
 }
 
